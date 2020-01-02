@@ -1,7 +1,8 @@
 ### Two-Axis Sculpt Keycaps
 
 #### Renders:
-![TAS_profile_3x6_render](https://i.imgur.com/PeOQRxq.jpg)
+![TAS_profile_3x6_render](https://i.imgur.com/uCq5I6G.jpg)
+![TAS_profile_3x6_render2](https://i.imgur.com/2LmAKD1.jpg)
 ![TAS_profile_ergo_render](https://i.imgur.com/4sUnMbP.jpg)
 
 #### Production:
