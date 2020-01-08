@@ -3,6 +3,7 @@
 #### Renders:
 ![TAS_profile_3x6_render](https://i.imgur.com/uCq5I6G.jpg)
 ![TAS_profile_3x6_render2](https://i.imgur.com/2LmAKD1.jpg)
+![TAS_profile_5x6_render1](https://i.imgur.com/U1Cqmze.jpg)
 ![TAS_profile_ergo_render](https://i.imgur.com/4sUnMbP.jpg)
 
 #### Production:
@@ -20,6 +21,24 @@
 
 ----
 
+#### Supported layouts:
+##### Planck:
+![planck_layout_render](https://i.imgur.com/ljV0FAw.jpg)
+
+* Can be made by printing the `./layouts/stl/TAS_profile_layout_4x6_a.stl` and `./layouts/stl/TAS_profile_layout_4x6_b.stl` layout files
+
+##### Preonic:
+![preonic_layout_render](https://i.imgur.com/6NSYef8.jpg)
+
+* Can be made by printing the `./layouts/stl/TAS_profile_layout_5x6_a.stl` and `./layouts/stl/TAS_profile_layout_5x6_b.stl` layout files
+
+##### Corne
+![corne_layout_render](https://i.imgur.com/aOKTsyF.jpg)
+
+* Can be produced by printing out two copies of the `./layouts/stl/TAS_profile_layout_4x6_c.stl` file
+
+----
+
 #### Design notes:
 
 * The keycaps are directly modelled in Solidworks, parametric modelling would be a more precise approach
@@ -32,6 +51,7 @@
 ![3x4_base_set](https://i.imgur.com/Z8LcRNy.jpg)
 
 * 3x5, 3x6, 4x5, 4x6... etc. layouts can be made by mirroring the caps with the "C0" column as the mirror axis
+    * A 5 row layout is possible by using the `./keycaps/stl/rn` number row models
 
 ![3x6_set](https://i.imgur.com/JYcfV5o.jpg)
 
@@ -42,7 +62,7 @@
 
 * The stem slot is sized as pictured below:
     * Initially, I sized the stem slot width to 1.20mm
-    * The prototypes I had SLS 3D printed from nylon had a moderately snug fit for most of the keycaps, however, due to manufacturing inconsistenscies, some keycaps were loose on the stem
+    * The prototypes I had SLS 3D printed from nylon had a moderately snug fit for most of the keycaps, however, due to manufacturing inconsistencies, some keycaps were loose on the stem
     * I have reduced the stem slot width from 1.20mm to 1.17mm to ensure a good fit when printed with SLS or SLA with resin printing
         * **Note**: This sizing may be too tight for FDM 3D printing, I have read that some users size the stem slot width ranging from 1.25mm to 1.35mm
         * However, I have also read that it is possible to soak the inside of the stem slot with acetone and 'mold' the keycap's slot to a Cherry MX stem
@@ -71,13 +91,13 @@
         * **Note**: This is true for 1 unit (square) keycaps, 1.25+ unit sized keycaps have a rectangular top/bottom "square" and these parameters need to be multiplied by a factor depending on the size
             * e.g.: 1.25 unit keycaps have dimensions  18.50mm x 1.25(18.50mm) for the base rectangle side length and 12.50mm x 1.25(12.50mm) for the top rectangle side length
     * Sculpt depth = 0.80mm
+        * This is set to 1.0mm for the keycaps in the place of "F" and "J" on a QWERTY layout
     * Vertex tapered fillet radius 1 = 2.00mm
     * Vertex tapered fillet radius 2 = 0.50mm
 
 ----
 
 ### To-do:
-* Add another row for number keys (50% - 60% layouts)
 
 ----
 ###### Models were created in Solidworks, then exported as STL. Feel free to use/modify/redistribute.
